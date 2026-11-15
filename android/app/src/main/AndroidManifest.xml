@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 자동차(Automotive) 플랫폼 전용 선언 -->
+    <uses-feature
+        android:name="android.hardware.type.automotive"
+        android:required="true" />
+
+    <!-- 인터넷, 음성 제어 및 위치(FusedLocation) 권한 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- ========================================================================= -->
+    <!-- 현대 Pleos Connect 공식 권한 선언 (Pleos Playground) -->
+    <!-- ========================================================================= -->
+    <!-- 순정 내비: 경로 설정과 정보 조회 -->
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <uses-permission android:name="pleos.car.permission.NAVI_CUSTOM_MAP" />
+
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN" />
+
+    <!-- 차량 위치 및 주행 관련 상태 -->
+    <uses-permission android:name="pleos.car.permission.FUSED_LOCATION" />
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <uses-permission android:name="pleos.car.permission.CAR_ENERGY" />
+
+    <!-- 차량 TTS / STT 음성 서비스 -->
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" />
+    <uses-permission android:name="pleos.car.permission.STT_SERVICE" />
+
+    <!-- Pleos 순정 내비게이션 및 geo 인텐트 호출을 위한 패키지 가시성(Package Visibility) 선언 -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="geo" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.APP_MAPS" />
+        </intent>
+        <intent>
+            <action android:name="ai.pleos.navi.action.START_NAVIGATION" />
+        </intent>
+        <package android:name="ai.pleos.playground.service.navi" />
+        <package android:name="ai.pleos.navi" />
+        <package android:name="com.hyundai.automotive.navi" />
+        <package android:name="com.android.car" />
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CARmeleon"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="34">
+
+        <uses-library android:name="android.car" android:required="true" />
+
+        <!-- 현대차 Pleos / AAOS 주행 중 디스플레이 최적화 선언 (화면 꺼짐 방지) -->
+        <meta-data
+            android:name="distractionOptimized"
+            android:value="true" />
+
+        <!-- Pleos Connect 멀티윈도우(Dual App 분할 화면) 및 분할 인텐트 런치 허용 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:resizeableActivity="true"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.CARmeleon.Fullscreen"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+{
+  "name": "carmeleon",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "demo:dev": "vite --host 127.0.0.1",
+    "demo:test": "bun --no-env-file test ./src/live/journey.test.ts ./src/live/companion.test.ts ./src/live/RouteAgent.test.ts ./src/live/audio.test.ts ./server/fallback/api.test.ts ./server/fallback/agent.test.ts ./src/utils/voiceFlow.test.ts",
+    "demo:fixtures": "bun run scripts/prepare-live-verification.ts",
+    "dev": "vite",
+    "server": "bun run server/index.ts",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "agent:server": "bun run server/agent-server.ts",
+    "agent:test": "bun test ./server/agent.test.ts ./server/agent-regressions.test.ts ./server/maps/directions.test.ts ./server/maps/viteDirections.test.ts",
+    "agent:typecheck": "tsc -p server/agent/tsconfig.json"
+  },
+  "dependencies": {
+    "@google/genai": "^3.3.0",
+    "@openai/agents": "0.21.0",
+    "@types/leaflet": "^1.9.22",
+    "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.16.0",
+    "maplibre-gl": "6.18.0",
+    "pdfjs-dist": "5.4.296",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.4",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

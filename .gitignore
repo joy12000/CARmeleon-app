@@ -1,0 +1,64 @@
+# Environment variables
+.env
+.env*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary scraped files
+scraped_*
+extracted_*
+guide_dev*
+
+# Android build artifacts
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# Agent skills cache
+.agents/
+
+# Kotlin / Android build state
+.gradle/
+.kotlin/
+**/build/
+local.properties
+android/local.properties
+.bootstrap/
+verification/screenshots/
+.playwright-mcp/
+.gradle-user-home/
+.android-sdk/
+
+# Account database and original materials (never commit)
+.carmeleon-private/
+
+# Local test handoff binaries and native captures
+verification/pleos-handoff/
+desktopApp/verification/screenshots/
+verification/CARmeleon-Pleos-Tests.zip
+
+# Generated advertising footage and renders
+/artifacts/ads/

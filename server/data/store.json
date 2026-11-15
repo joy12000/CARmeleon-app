@@ -1,0 +1,811 @@
+{
+  "vehicles": [
+    {
+      "vin": "KMHE341CBLA123456",
+      "carPlateNumber": "22너 7043",
+      "sellname": "아이오닉 5",
+      "nickname": "내 흰둥이",
+      "type": "EV",
+      "modelYear": 2024,
+      "battery": {
+        "soc": 85,
+        "remainingRange": 392,
+        "isCharging": false
+      },
+      "isEngineOn": true,
+      "doorStatus": "LOCKED"
+    }
+  ],
+  "activeNaviRoute": {
+    "id": "route-1794291753760",
+    "title": "수원 여행",
+    "date": "11.14",
+    "isActiveInCar": true,
+    "isBusiness": false,
+    "isTravel": true,
+    "stops": [
+      {
+        "id": "stop-1794291643754",
+        "name": "수원화성 장안문",
+        "address": "경기도 수원시 팔달구 정조로 910",
+        "category": "문화재/역사",
+        "type": "travel",
+        "aiBriefing": {
+          "summaryPoints": [
+            "'수원화성 장안문' 현대 순정 내비게이션 경로 연동 완료",
+            "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+          ]
+        }
+      },
+      {
+        "id": "stop-1794291669130",
+        "name": "수원 통닭거리 진미통닭",
+        "address": "경기도 수원시 팔달구 정조로800번길 21",
+        "category": "명물맛집/치킨",
+        "type": "travel",
+        "aiBriefing": {
+          "summaryPoints": [
+            "'수원 통닭거리 진미통닭' 현대 순정 내비게이션 경로 연동 완료",
+            "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+          ]
+        }
+      },
+      {
+        "id": "stop-1794291751739",
+        "name": "집",
+        "address": "서울특별시 구로구 중앙로12길 12",
+        "type": "travel",
+        "aiBriefing": {
+          "summaryPoints": [
+            "단축어 '집'(서울특별시 구로구 중앙로12길 12) 경로 안내 연동",
+            "차량 탑승 시 실시간 경로가 자동 동기화됩니다."
+          ]
+        }
+      }
+    ]
+  },
+  "routesStore": [
+    {
+      "routeId": "route-1794297072600",
+      "title": "뀨",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794297050782",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "단축어 '집'(서울특별시 구로구 중앙로12길 12) 경로 안내 연동",
+              "차량 탑승 시 실시간 경로가 자동 동기화됩니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794297053925",
+          "name": "현대자동차",
+          "address": "서울특별시 서초구 헌릉로 12",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "단축어 '현대자동차'(서울특별시 서초구 헌릉로 12) 경로 안내 연동",
+              "차량 탑승 시 실시간 경로가 자동 동기화됩니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794297059745",
+          "name": "수원 스타벅스 수원화서점",
+          "address": "경기도 수원시 팔달구 동말로 35",
+          "category": "카페/디저트",
+          "latitude": 37.2831,
+          "longitude": 126.9972,
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'수원 스타벅스 수원화서점' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794297062552",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "단축어 '집'(서울특별시 구로구 중앙로12길 12) 경로 안내 연동",
+              "차량 탑승 시 실시간 경로가 자동 동기화됩니다."
+            ]
+          }
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794297072617
+    },
+    {
+      "routeId": "route-1794291753760",
+      "title": "수원 여행",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794291643754",
+          "name": "수원화성 장안문",
+          "address": "경기도 수원시 팔달구 정조로 910",
+          "category": "문화재/역사",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'수원화성 장안문' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794291669130",
+          "name": "수원 통닭거리 진미통닭",
+          "address": "경기도 수원시 팔달구 정조로800번길 21",
+          "category": "명물맛집/치킨",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'수원 통닭거리 진미통닭' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794291751739",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "단축어 '집'(서울특별시 구로구 중앙로12길 12) 경로 안내 연동",
+              "차량 탑승 시 실시간 경로가 자동 동기화됩니다."
+            ]
+          }
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794291848890
+    },
+    {
+      "routeId": "route-1794291753760",
+      "title": "수원 여행",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794291643754",
+          "name": "수원화성 장안문",
+          "address": "경기도 수원시 팔달구 정조로 910",
+          "category": "문화재/역사",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'수원화성 장안문' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794291669130",
+          "name": "수원 통닭거리 진미통닭",
+          "address": "경기도 수원시 팔달구 정조로800번길 21",
+          "category": "명물맛집/치킨",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'수원 통닭거리 진미통닭' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794291751739",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "단축어 '집'(서울특별시 구로구 중앙로12길 12) 경로 안내 연동",
+              "차량 탑승 시 실시간 경로가 자동 동기화됩니다."
+            ]
+          }
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794291846881
+    },
+    {
+      "routeId": "route-1794291753760",
+      "title": "수원 여행",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794291643754",
+          "name": "수원화성 장안문",
+          "address": "경기도 수원시 팔달구 정조로 910",
+          "category": "문화재/역사",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'수원화성 장안문' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794291669130",
+          "name": "수원 통닭거리 진미통닭",
+          "address": "경기도 수원시 팔달구 정조로800번길 21",
+          "category": "명물맛집/치킨",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'수원 통닭거리 진미통닭' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794291751739",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "type": "travel",
+          "aiBriefing": {
+            "summaryPoints": [
+              "단축어 '집'(서울특별시 구로구 중앙로12길 12) 경로 안내 연동",
+              "차량 탑승 시 실시간 경로가 자동 동기화됩니다."
+            ]
+          }
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794291753776
+    },
+    {
+      "routeId": "route-1794291615255",
+      "title": "카멜레온 미팅",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794291596865",
+          "name": "현대자동차 양재 본사",
+          "address": "서울특별시 서초구 헌릉로 12",
+          "category": "본사/사옥",
+          "attachedFile": "Carmeleon_서비스_미팅자료.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 양재 본사' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794291610538",
+          "name": "현대자동차 남양기술연구소",
+          "address": "경기도 화성시 남양읍 현대연구소로 150",
+          "category": "연구소/R&D",
+          "attachedFile": "Carmeleon_Pleos.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 남양기술연구소' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794291613037",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "단축어 '집'(서울특별시 구로구 중앙로12길 12) 경로 안내 연동",
+              "차량 탑승 시 실시간 경로가 자동 동기화됩니다."
+            ]
+          }
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794291615278
+    },
+    {
+      "routeId": "route-1794290917045",
+      "title": "카멜레온 미팅",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794290880244",
+          "name": "현대자동차 양재 본사",
+          "address": "서울특별시 서초구 헌릉로 12",
+          "category": "본사/사옥",
+          "attachedFile": "Carmeleon_서비스_미팅자료.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 양재 본사' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290909629",
+          "name": "현대자동차 남양기술연구소",
+          "address": "경기도 화성시 남양읍 현대연구소로 150",
+          "category": "연구소/R&D",
+          "attachedFile": "Carmeleon_Pleos.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 남양기술연구소' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290911908",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "time": "12:00",
+          "type": "business"
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794290917056
+    },
+    {
+      "routeId": "route-1794290800917",
+      "title": "카멜레온 미팅",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794290766919",
+          "name": "현대자동차 양재 본사",
+          "address": "서울특별시 서초구 헌릉로 12",
+          "category": "본사/사옥",
+          "attachedFile": "Carmeleon_서비스_미팅자료.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 양재 본사' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290793310",
+          "name": "현대자동차 남양기술연구소",
+          "address": "경기도 화성시 남양읍 현대연구소로 150",
+          "category": "연구소/R&D",
+          "attachedFile": "Carmeleon_Pleos_%EC%97%B0%EB%8F%99_%EB%AF%B8%ED%8C%85%EC%9E%90%EB%A3%8C.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 남양기술연구소' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290797088",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "time": "12:00",
+          "type": "business"
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794290811349
+    },
+    {
+      "routeId": "route-1794290800917",
+      "title": "카멜레온 미팅",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794290766919",
+          "name": "현대자동차 양재 본사",
+          "address": "서울특별시 서초구 헌릉로 12",
+          "category": "본사/사옥",
+          "attachedFile": "Carmeleon_서비스_미팅자료.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 양재 본사' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290793310",
+          "name": "현대자동차 남양기술연구소",
+          "address": "경기도 화성시 남양읍 현대연구소로 150",
+          "category": "연구소/R&D",
+          "attachedFile": "Carmeleon_Pleos_%EC%97%B0%EB%8F%99_%EB%AF%B8%ED%8C%85%EC%9E%90%EB%A3%8C.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 남양기술연구소' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290797088",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "time": "12:00",
+          "type": "business"
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794290809565
+    },
+    {
+      "routeId": "route-1794290800917",
+      "title": "카멜레온 미팅",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794290766919",
+          "name": "현대자동차 양재 본사",
+          "address": "서울특별시 서초구 헌릉로 12",
+          "category": "본사/사옥",
+          "attachedFile": "Carmeleon_서비스_미팅자료.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 양재 본사' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290793310",
+          "name": "현대자동차 남양기술연구소",
+          "address": "경기도 화성시 남양읍 현대연구소로 150",
+          "category": "연구소/R&D",
+          "attachedFile": "Carmeleon_Pleos_%EC%97%B0%EB%8F%99_%EB%AF%B8%ED%8C%85%EC%9E%90%EB%A3%8C.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 남양기술연구소' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290797088",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "time": "12:00",
+          "type": "business"
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794290806952
+    },
+    {
+      "routeId": "route-1794290800917",
+      "title": "카멜레온 미팅",
+      "date": "11-10",
+      "stops": [
+        {
+          "id": "stop-1794290766919",
+          "name": "현대자동차 양재 본사",
+          "address": "서울특별시 서초구 헌릉로 12",
+          "category": "본사/사옥",
+          "attachedFile": "Carmeleon_서비스_미팅자료.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 양재 본사' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290793310",
+          "name": "현대자동차 남양기술연구소",
+          "address": "경기도 화성시 남양읍 현대연구소로 150",
+          "category": "연구소/R&D",
+          "attachedFile": "Carmeleon_Pleos_%EC%97%B0%EB%8F%99_%EB%AF%B8%ED%8C%85%EC%9E%90%EB%A3%8C.pptx",
+          "type": "business",
+          "aiBriefing": {
+            "summaryPoints": [
+              "'현대자동차 남양기술연구소' 현대 순정 내비게이션 경로 연동 완료",
+              "차량 인포테인먼트가 도착 10분 전 주차장 및 주변 명소 설화를 브리핑합니다."
+            ]
+          }
+        },
+        {
+          "id": "stop-1794290797088",
+          "name": "집",
+          "address": "서울특별시 구로구 중앙로12길 12",
+          "time": "12:00",
+          "type": "business"
+        }
+      ],
+      "status": "READY",
+      "createdAt": 1794290800956
+    }
+  ],
+  "navSessionsStore": [
+    {
+      "sessionId": "sess_1794253758895",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794253758895,
+      "updatedAt": 1794253758895,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794253777184",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794253777184,
+      "updatedAt": 1794253777184,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794365206767",
+      "routeId": "route-1794291753760",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794365206767,
+      "updatedAt": 1794365206767,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794364699453",
+      "routeId": "route-1794291615255",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794364699453,
+      "updatedAt": 1794364699453,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794364696185",
+      "routeId": "route-1794291615255",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794364696185,
+      "updatedAt": 1794364696185,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794296817671",
+      "routeId": "route-1794291753760",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794296817671,
+      "updatedAt": 1794296817671,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794296815463",
+      "routeId": "route-1794291753760",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794296815463,
+      "updatedAt": 1794296815463,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794296699564",
+      "routeId": "route-1794291615255",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794296699564,
+      "updatedAt": 1794296699564,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794296695765",
+      "routeId": "route-1794291615255",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794296695765,
+      "updatedAt": 1794296695765,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794294581410",
+      "routeId": "route-1794291615255",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794294581410,
+      "updatedAt": 1794294581410,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794288178902",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794288178902,
+      "updatedAt": 1794288178902,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794288175418",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794288175418,
+      "updatedAt": 1794288175418,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794286369827",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794286369827,
+      "updatedAt": 1794286369827,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794286367464",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794286367464,
+      "updatedAt": 1794286367464,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794284847553",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794284847553,
+      "updatedAt": 1794284847553,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794284844134",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794284844134,
+      "updatedAt": 1794284844134,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794209857655",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794209857655,
+      "updatedAt": 1794209857655,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794209855854",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794209855855,
+      "updatedAt": 1794209855855,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794209287817",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794209287817,
+      "updatedAt": 1794209287817,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794209283614",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794209283614,
+      "updatedAt": 1794209283614,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794209076962",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794209076962,
+      "updatedAt": 1794209076962,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794209073100",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794209073101,
+      "updatedAt": 1794209073101,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794208784962",
+      "routeId": "route-4",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794208784963,
+      "updatedAt": 1794208784963,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794208781737",
+      "routeId": "route-4",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794208781737,
+      "updatedAt": 1794208781737,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794208546872",
+      "routeId": "route-3",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794208546872,
+      "updatedAt": 1794208546872,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794208543658",
+      "routeId": "route-3",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794208543658,
+      "updatedAt": 1794208543658,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794207995459",
+      "routeId": "route-2",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794207995459,
+      "updatedAt": 1794207995459,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794207992566",
+      "routeId": "route-2",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794207992566,
+      "updatedAt": 1794207992566,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794207698145",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794207698145,
+      "updatedAt": 1794207698145,
+      "currentStopIndex": 0
+    },
+    {
+      "sessionId": "sess_1794207696587",
+      "routeId": "route-1",
+      "vin": "22너 7043",
+      "status": "NAV_REQUESTED",
+      "startedAt": 1794207696588,
+      "updatedAt": 1794207696588,
+      "currentStopIndex": 0
+    }
+  ]
+}
